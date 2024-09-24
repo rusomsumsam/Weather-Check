@@ -12,9 +12,9 @@
             height: 150px;
             margin: auto;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1),
-                    0 -4px 6px rgba(0, 0, 0, 0.3),
-                    4px 0 6px rgba(0, 0, 0, 0.3),
-                    -4px 0 6px rgba(0, 0, 0, 0.3);
+            0 -4px 6px rgba(0, 0, 0, 0.3),
+            4px 0 6px rgba(0, 0, 0, 0.3),
+            -4px 0 6px rgba(0, 0, 0, 0.3);
             background-color: rgb(68, 68, 68);
             margin-top: 50px;
             .weather_search_inner {
@@ -23,7 +23,7 @@
                 #inpt {
                     width: 100%;
                     height: 40px;
-                    border: 1px solid aqua;
+                    border: 1px solid rgb(170, 9, 17);
                     margin-top: 20px;
                     padding-left: 20px;
                     &::placeholder {
@@ -40,7 +40,7 @@
                     -moz-border-radius: 20px;
                     -ms-border-radius: 20px;
                     -o-border-radius: 20px;
-                    background-color: aqua;
+                    background-color: rgb(170, 9, 17);
                     font-family: "Merriweather", serif;
                     font-weight: 600;
                     font-size: 20px;
@@ -61,11 +61,13 @@
                         -4px 0 6px rgba(0, 0, 0, 0.3);
                 background-color: aliceblue;
                 #prevMsg {
+                    padding-left: 20px;
+                    padding-top: 20px;
                     font-family: "Merriweather", serif;
                     font-weight: 600;
                     font-size: 20px;
                     span {
-                        color: red;
+                        color: rgb(170, 9, 17);
                     }
                 }
                 #output {
@@ -75,23 +77,25 @@
                     .header {
                         color: rgb(8, 8, 8);
                         font-family: "Merriweather", serif;
-                        font-weight: 600;
-                        font-size: 20px;
-                        text-shadow: 2px 2px 4px rgba(5, 5, 5, 0.3);
+                        font-weight: 800;
+                        font-size: 24px;
+                        text-shadow: 1px 1px 1px rgba(233, 9, 9, 0.8);
                     }
                     .item {
                         width: 100%;
                         color: rgb(0, 0, 0);
                         font-family: "Merriweather", serif;
                         font-weight: 600;
-                        font-size: 20px;
+                        font-size: 18px;
                         padding: 5px;
                         background-color: rgb(180, 179, 179);
                         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3),
-                                0 -4px 6px rgba(0, 0, 0, 0.1),
-                                4px 0 6px rgba(0, 0, 0, 0.3),
-                                -4px 0 6px rgba(0, 0, 0, 0.3);
-                        
+                        0 -4px 6px rgba(0, 0, 0, 0.1),
+                        4px 0 6px rgba(0, 0, 0, 0.3),
+                        -4px 0 6px rgba(0, 0, 0, 0.3);
+                        .icon_cus {
+                            color: rgb(170, 9, 17);
+                        }
                     }
                 }
             }
